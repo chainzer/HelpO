@@ -1,2 +1,2 @@
 # HelpO
-Help
+I's making a game wanna help?
