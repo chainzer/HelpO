@@ -1,0 +1,79 @@
+state = "terminated"
+stackFrames = []
+variables = []
+breakpoints = []
+threadId = null
+
+10/12/2021, 5:28:35 PM -> {"channel":12,"debugSessions":{}}
+10/12/2021, 5:33:26 PM <- {"debugAddBreakpointRequest":{"path":"main.py","line":1,"otIndex":0,"otVersion":816},"ref":"1lt5pppsaq6","channel":12}
+10/12/2021, 5:33:26 PM -> {"channel":12,"debugBreakpointEvent":{"path":"main.py","breakpoints":[{"breakpointId":"3274e092-ed26-4d8d-bc78-d7a2128b8418","line":1,"otVersion":817}],"absolutePath":"/home/runner/Game-test/main.py"}}
+10/12/2021, 5:33:26 PM -> {"channel":12,"session":5785,"ok":{},"ref":"1lt5pppsaq6"}
+10/12/2021, 5:33:26 PM -> {"channel":12,"session":5785,"ok":{},"ref":"1lt5pppsaq6"}
+10/12/2021, 5:40:54 PM <- {"debugRemoveBreakpointRequest":{"breakpointId":"3274e092-ed26-4d8d-bc78-d7a2128b8418"},"ref":"1iyqcxal4ab","channel":12}
+10/12/2021, 5:40:54 PM -> {"channel":12,"debugBreakpointEvent":{"path":"main.py","absolutePath":"/home/runner/Game-test/main.py"}}
+10/12/2021, 5:40:54 PM -> {"channel":12,"session":5785,"ok":{},"ref":"1iyqcxal4ab"}
+10/12/2021, 5:40:54 PM -> {"channel":12,"session":5785,"ok":{},"ref":"1iyqcxal4ab"}
+10/12/2021, 5:41:00 PM <- {"debugMain":{"session":"main","readOnly":false},"ref":"c7mjj6lq53k","channel":12}
+10/12/2021, 5:41:00 PM -> {"channel":12,"debugSessions":{"sessions":{"main":"Stopped"}}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugState":{"session":"main","state":"Running"}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugSessions":{"sessions":{"main":"Running"}}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"session":5785,"debugMainReply":{},"ref":"c7mjj6lq53k"}
+10/12/2021, 5:41:02 PM -> {"channel":12,"session":5785,"debugMainReply":{},"ref":"c7mjj6lq53k"}
+10/12/2021, 5:41:02 PM <- {"command":"initialize","arguments":{"clientID":"replit","clientName":"replit.com","adapterID":"cppdbg","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":false,"locale":"en-us","supportsProgressReporting":true,"supportsInvalidatedEvent":true},"type":"request","seq":100}
+10/12/2021, 5:41:02 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 373\r\n\r\n{\"command\":\"initialize\",\"arguments\":{\"clientID\":\"replit\",\"clientName\":\"replit.com\",\"adapterID\":\"cppdbg\",\"pathFormat\":\"path\",\"linesStartAt1\":true,\"columnsStartAt1\":true,\"supportsVariableType\":true,\"supportsVariablePaging\":true,\"supportsRunInTerminalRequest\":false,\"locale\":\"en-us\",\"supportsProgressReporting\":true,\"supportsInvalidatedEvent\":true},\"type\":\"request\",\"seq\":100}"},"channel":12}
+10/12/2021, 5:41:02 PM -> {"channel":12,"session":5785,"ok":{}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 850\r\n\r\n{\"seq\":1,\"type\":\"response\",\"request_seq\":100,\"success\":true,\"command\":\"initialize\",\"body\":{\"exceptionBreakpointFilters\":[{\"default\":false,\"filter\":\"raised\",\"label\":\"Raised Exceptions\"},{\"default\":true,\"filter\":\"uncaught\",\"label\":\"Uncaught Exceptions\"}],\"supportsClipboardContext\":true,\"supportsCompletionsRequest\":true,\"supportsConditionalBreakpoints\":true,\"supportsConfigurationDoneRequest\":true,\"supportsDebuggerProperties\":true,\"supportsDelayedStackTraceLoading\":true,\"supportsEvaluateForHovers\":true,\"supportsExceptionInfoRequest\":true,\"supportsExceptionOptions\":true,\"supportsGotoTargetsRequest\":true,\"supportsHitConditionalBreakpoints\":true,\"supportsJoin\":true,\"supportsLogPoints\":true,\"supportsModulesRequest\":true,\"supportsSetExpression\":true,\"supportsSetVariable\":true,\"supportsTerminateDebuggee\":true,\"supportsValueFormattingOptions\":true}}"}}
+10/12/2021, 5:41:02 PM -> {"seq":1,"type":"response","request_seq":100,"success":true,"command":"initialize","body":{"exceptionBreakpointFilters":[{"default":false,"filter":"raised","label":"Raised Exceptions"},{"default":true,"filter":"uncaught","label":"Uncaught Exceptions"}],"supportsClipboardContext":true,"supportsCompletionsRequest":true,"supportsConditionalBreakpoints":true,"supportsConfigurationDoneRequest":true,"supportsDebuggerProperties":true,"supportsDelayedStackTraceLoading":true,"supportsEvaluateForHovers":true,"supportsExceptionInfoRequest":true,"supportsExceptionOptions":true,"supportsGotoTargetsRequest":true,"supportsHitConditionalBreakpoints":true,"supportsJoin":true,"supportsLogPoints":true,"supportsModulesRequest":true,"supportsSetExpression":true,"supportsSetVariable":true,"supportsTerminateDebuggee":true,"supportsValueFormattingOptions":true}}
+10/12/2021, 5:41:02 PM <- {"command":"setBreakpoints","arguments":{"source":{"name":"/home/runner/Game-test/main.py","path":"/home/runner/Game-test/main.py"},"breakpoints":[]},"type":"request","seq":101}
+10/12/2021, 5:41:02 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 177\r\n\r\n{\"command\":\"setBreakpoints\",\"arguments\":{\"source\":{\"name\":\"/home/runner/Game-test/main.py\",\"path\":\"/home/runner/Game-test/main.py\"},\"breakpoints\":[]},\"type\":\"request\",\"seq\":101}"},"channel":12}
+10/12/2021, 5:41:02 PM -> {"channel":12,"session":5785,"ok":{}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 99\r\n\r\n{\"seq\":2,\"type\":\"event\",\"event\":\"debugpyWaitingForServer\",\"body\":{\"host\":\"127.0.0.1\",\"port\":37925}}Content-Length: 46\r\n\r\n{\"seq\":3,\"type\":\"event\",\"event\":\"initialized\"}"}}
+10/12/2021, 5:41:02 PM -> {"seq":2,"type":"event","event":"debugpyWaitingForServer","body":{"host":"127.0.0.1","port":37925}}
+10/12/2021, 5:41:02 PM -> {"seq":3,"type":"event","event":"initialized"}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 113\r\n\r\n{\"seq\":4,\"type\":\"response\",\"request_seq\":101,\"success\":true,\"command\":\"setBreakpoints\",\"body\":{\"breakpoints\":[]}}"}}
+10/12/2021, 5:41:02 PM -> {"seq":4,"type":"response","request_seq":101,"success":true,"command":"setBreakpoints","body":{"breakpoints":[]}}
+10/12/2021, 5:41:02 PM <- {"command":"configurationDone","type":"request","seq":102}
+10/12/2021, 5:41:02 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 58\r\n\r\n{\"command\":\"configurationDone\",\"type\":\"request\",\"seq\":102}"},"channel":12}
+10/12/2021, 5:41:02 PM -> {"channel":12,"session":5785,"ok":{}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 90\r\n\r\n{\"seq\":5,\"type\":\"response\",\"request_seq\":102,\"success\":true,\"command\":\"configurationDone\"}Content-Length: 147\r\n\r\n{\"seq\":6,\"type\":\"event\",\"event\":\"process\",\"body\":{\"isLocalProcess\":true,\"name\":\"/opt/dap/python/run\",\"startMethod\":\"attach\",\"systemProcessId\":596}}Content-Length: 82\r\n\r\n{\"seq\":7,\"type\":\"event\",\"event\":\"thread\",\"body\":{\"reason\":\"started\",\"threadId\":1}}"}}
+10/12/2021, 5:41:02 PM -> {"seq":5,"type":"response","request_seq":102,"success":true,"command":"configurationDone"}
+10/12/2021, 5:41:02 PM -> {"seq":6,"type":"event","event":"process","body":{"isLocalProcess":true,"name":"/opt/dap/python/run","startMethod":"attach","systemProcessId":596}}
+10/12/2021, 5:41:02 PM -> {"seq":7,"type":"event","event":"thread","body":{"reason":"started","threadId":1}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugOutput":{"session":"main","output":"Traceback (most recent call last):\r\n  File \"/opt/dap/python/run\", line 34, in <module>\r\n    _main()\r\n  File \"/opt/dap/python/run\", line 30, in _main\r\n    runpy.run_path(target_as_str, run_name=\"__main__\")\r\n  File \"/usr/lib/python3.8/runpy.py\", line 264, in run_path\r\n    code, fname = _get_code_from_file(run_name, path_name)\r\n  File \"/usr/lib/python3.8/runpy.py\", line 239, in _get_code_from_file\r\n    code = compile(f.read(), fname, 'exec')\r\n  File \"main.py\", line 13\r\n    def_init_(self):\r\n                   ^\r\nSyntaxError: invalid syntax\r\n"}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 81\r\n\r\n{\"seq\":8,\"type\":\"event\",\"event\":\"thread\",\"body\":{\"reason\":\"exited\",\"threadId\":1}}"}}
+10/12/2021, 5:41:02 PM -> {"seq":8,"type":"event","event":"thread","body":{"reason":"exited","threadId":1}}
+10/12/2021, 5:41:02 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 45\r\n\r\n{\"seq\":9,\"type\":\"event\",\"event\":\"terminated\"}"}}
+10/12/2021, 5:41:02 PM -> {"seq":9,"type":"event","event":"terminated"}
+10/12/2021, 5:41:03 PM -> {"channel":12,"debugState":{"session":"main"}}
+10/12/2021, 5:41:03 PM -> {"channel":12,"debugSessions":{}}
+10/12/2021, 5:41:39 PM <- {"debugMain":{"session":"main","readOnly":false},"ref":"2etorog32h9","channel":12}
+10/12/2021, 5:41:39 PM -> {"channel":12,"debugSessions":{"sessions":{"main":"Stopped"}}}
+10/12/2021, 5:41:40 PM -> {"channel":12,"debugState":{"session":"main","state":"Running"}}
+10/12/2021, 5:41:40 PM -> {"channel":12,"debugSessions":{"sessions":{"main":"Running"}}}
+10/12/2021, 5:41:40 PM -> {"channel":12,"session":5785,"debugMainReply":{},"ref":"2etorog32h9"}
+10/12/2021, 5:41:40 PM -> {"channel":12,"session":5785,"debugMainReply":{},"ref":"2etorog32h9"}
+10/12/2021, 5:41:40 PM <- {"command":"initialize","arguments":{"clientID":"replit","clientName":"replit.com","adapterID":"cppdbg","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":false,"locale":"en-us","supportsProgressReporting":true,"supportsInvalidatedEvent":true},"type":"request","seq":103}
+10/12/2021, 5:41:40 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 373\r\n\r\n{\"command\":\"initialize\",\"arguments\":{\"clientID\":\"replit\",\"clientName\":\"replit.com\",\"adapterID\":\"cppdbg\",\"pathFormat\":\"path\",\"linesStartAt1\":true,\"columnsStartAt1\":true,\"supportsVariableType\":true,\"supportsVariablePaging\":true,\"supportsRunInTerminalRequest\":false,\"locale\":\"en-us\",\"supportsProgressReporting\":true,\"supportsInvalidatedEvent\":true},\"type\":\"request\",\"seq\":103}"},"channel":12}
+10/12/2021, 5:41:40 PM -> {"channel":12,"session":5785,"ok":{}}
+10/12/2021, 5:41:40 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 850\r\n\r\n{\"seq\":1,\"type\":\"response\",\"request_seq\":103,\"success\":true,\"command\":\"initialize\",\"body\":{\"exceptionBreakpointFilters\":[{\"default\":false,\"filter\":\"raised\",\"label\":\"Raised Exceptions\"},{\"default\":true,\"filter\":\"uncaught\",\"label\":\"Uncaught Exceptions\"}],\"supportsClipboardContext\":true,\"supportsCompletionsRequest\":true,\"supportsConditionalBreakpoints\":true,\"supportsConfigurationDoneRequest\":true,\"supportsDebuggerProperties\":true,\"supportsDelayedStackTraceLoading\":true,\"supportsEvaluateForHovers\":true,\"supportsExceptionInfoRequest\":true,\"supportsExceptionOptions\":true,\"supportsGotoTargetsRequest\":true,\"supportsHitConditionalBreakpoints\":true,\"supportsJoin\":true,\"supportsLogPoints\":true,\"supportsModulesRequest\":true,\"supportsSetExpression\":true,\"supportsSetVariable\":true,\"supportsTerminateDebuggee\":true,\"supportsValueFormattingOptions\":true}}"}}
+10/12/2021, 5:41:40 PM -> {"seq":1,"type":"response","request_seq":103,"success":true,"command":"initialize","body":{"exceptionBreakpointFilters":[{"default":false,"filter":"raised","label":"Raised Exceptions"},{"default":true,"filter":"uncaught","label":"Uncaught Exceptions"}],"supportsClipboardContext":true,"supportsCompletionsRequest":true,"supportsConditionalBreakpoints":true,"supportsConfigurationDoneRequest":true,"supportsDebuggerProperties":true,"supportsDelayedStackTraceLoading":true,"supportsEvaluateForHovers":true,"supportsExceptionInfoRequest":true,"supportsExceptionOptions":true,"supportsGotoTargetsRequest":true,"supportsHitConditionalBreakpoints":true,"supportsJoin":true,"supportsLogPoints":true,"supportsModulesRequest":true,"supportsSetExpression":true,"supportsSetVariable":true,"supportsTerminateDebuggee":true,"supportsValueFormattingOptions":true}}
+10/12/2021, 5:41:40 PM <- {"command":"configurationDone","type":"request","seq":104}
+10/12/2021, 5:41:40 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 58\r\n\r\n{\"command\":\"configurationDone\",\"type\":\"request\",\"seq\":104}"},"channel":12}
+10/12/2021, 5:41:41 PM -> {"channel":12,"session":5785,"ok":{}}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 99\r\n\r\n{\"seq\":2,\"type\":\"event\",\"event\":\"debugpyWaitingForServer\",\"body\":{\"host\":\"127.0.0.1\",\"port\":39841}}Content-Length: 46\r\n\r\n{\"seq\":3,\"type\":\"event\",\"event\":\"initialized\"}"}}
+10/12/2021, 5:41:41 PM -> {"seq":2,"type":"event","event":"debugpyWaitingForServer","body":{"host":"127.0.0.1","port":39841}}
+10/12/2021, 5:41:41 PM -> {"seq":3,"type":"event","event":"initialized"}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 90\r\n\r\n{\"seq\":4,\"type\":\"response\",\"request_seq\":104,\"success\":true,\"command\":\"configurationDone\"}Content-Length: 147\r\n\r\n{\"seq\":5,\"type\":\"event\",\"event\":\"process\",\"body\":{\"isLocalProcess\":true,\"name\":\"/opt/dap/python/run\",\"startMethod\":\"attach\",\"systemProcessId\":633}}Content-Length: 82\r\n\r\n{\"seq\":6,\"type\":\"event\",\"event\":\"thread\",\"body\":{\"reason\":\"started\",\"threadId\":1}}"}}
+10/12/2021, 5:41:41 PM -> {"seq":4,"type":"response","request_seq":104,"success":true,"command":"configurationDone"}
+10/12/2021, 5:41:41 PM -> {"seq":5,"type":"event","event":"process","body":{"isLocalProcess":true,"name":"/opt/dap/python/run","startMethod":"attach","systemProcessId":633}}
+10/12/2021, 5:41:41 PM -> {"seq":6,"type":"event","event":"thread","body":{"reason":"started","threadId":1}}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugOutput":{"session":"main","output":"Traceback (most recent call last):\r\n  File \"/opt/dap/python/run\", line 34, in <module>\r\n    _main()\r\n  File \"/opt/dap/python/run\", line 30, in _main\r\n    runpy.run_path(target_as_str, run_name=\"__main__\")\r\n  File \"/usr/lib/python3.8/runpy.py\", line 264, in run_path\r\n"}}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugOutput":{"session":"main","output":"    code, fname = _get_code_from_file(run_name, path_name)\r\n  File \"/usr/lib/python3.8/runpy.py\", line 239, in _get_code_from_file\r\n"}}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugOutput":{"session":"main","output":"    code = compile(f.read(), fname, 'exec')\r\n  File \"main.py\", line 13\r\n    def_init_(self) :\r\n"}}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugOutput":{"session":"main","output":"                    ^\r\nSyntaxError: invalid syntax\r\n"}}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 81\r\n\r\n{\"seq\":7,\"type\":\"event\",\"event\":\"thread\",\"body\":{\"reason\":\"exited\",\"threadId\":1}}"}}
+10/12/2021, 5:41:41 PM -> {"seq":7,"type":"event","event":"thread","body":{"reason":"exited","threadId":1}}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 45\r\n\r\n{\"seq\":8,\"type\":\"event\",\"event\":\"terminated\"}"}}
+10/12/2021, 5:41:41 PM -> {"seq":8,"type":"event","event":"terminated"}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugState":{"session":"main"}}
+10/12/2021, 5:41:41 PM -> {"channel":12,"debugSessions":{}}
