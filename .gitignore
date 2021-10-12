@@ -1,18 +1,41 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+import pygame
+from vector2 import *
 
-# Other files and folders
-.settings/
+pygame.init()
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+screen = pygame.display.set_mode((1920, 1080))
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+pygame.sprite.Sprite
+
+pygame.sprite.collide_circle
+
+class Player:
+        def_init_(self):
+          self.image = pygame.image.load("Player.png")
+          self.image=pyagme.transform.scale(self.image,(200,200))
+          self.x = 0
+          self.y = 0
+
+
+
+Sky = (255, 255, 255)
+
+
+loop = True
+while loop:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            loop = False
+
+screen.fill (Sky)
+screen.Player(image,(0,0))  
+
+if pygame.key.get_pressed()[K_a]:
+	   player.x -=5
+
+if pygame.key.get_pressed() [K_s]:
+      player.x +=5
+
+
+pygame.quit()
+exit()
