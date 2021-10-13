@@ -1,0 +1,78 @@
+state = "terminated"
+stackFrames = []
+variables = []
+breakpoints = []
+threadId = null
+
+10/12/2021, 7:21:35 PM -> {"channel":10,"debugSessions":{}}
+10/12/2021, 7:24:33 PM <- {"debugMain":{"session":"main","readOnly":false},"ref":"ytrqcl2odv","channel":10}
+10/12/2021, 7:24:33 PM -> {"channel":10,"debugSessions":{"sessions":{"main":"Stopped"}}}
+10/12/2021, 7:24:35 PM <- {"command":"stepIn","arguments":{"threadId":null},"type":"request","seq":100}
+10/12/2021, 7:24:35 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 77\r\n\r\n{\"command\":\"stepIn\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":100}"},"channel":10}
+10/12/2021, 7:24:35 PM -> {"channel":10,"debugState":{"session":"main","state":"Running"}}
+10/12/2021, 7:24:35 PM -> {"channel":10,"debugSessions":{"sessions":{"main":"Running"}}}
+10/12/2021, 7:24:35 PM -> {"channel":10,"session":262,"debugMainReply":{},"ref":"ytrqcl2odv"}
+10/12/2021, 7:24:35 PM -> {"channel":10,"session":262,"debugMainReply":{},"ref":"ytrqcl2odv"}
+10/12/2021, 7:24:35 PM <- {"command":"initialize","arguments":{"clientID":"replit","clientName":"replit.com","adapterID":"cppdbg","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":false,"locale":"en-us","supportsProgressReporting":true,"supportsInvalidatedEvent":true},"type":"request","seq":101}
+10/12/2021, 7:24:35 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 373\r\n\r\n{\"command\":\"initialize\",\"arguments\":{\"clientID\":\"replit\",\"clientName\":\"replit.com\",\"adapterID\":\"cppdbg\",\"pathFormat\":\"path\",\"linesStartAt1\":true,\"columnsStartAt1\":true,\"supportsVariableType\":true,\"supportsVariablePaging\":true,\"supportsRunInTerminalRequest\":false,\"locale\":\"en-us\",\"supportsProgressReporting\":true,\"supportsInvalidatedEvent\":true},\"type\":\"request\",\"seq\":101}"},"channel":10}
+10/12/2021, 7:24:35 PM -> {"channel":10,"session":262,"ok":{}}
+10/12/2021, 7:24:35 PM -> {"channel":10,"session":262,"ok":{}}
+10/12/2021, 7:24:35 PM -> {"channel":10,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 114\r\n\r\n{\"seq\":1,\"type\":\"response\",\"request_seq\":100,\"command\":\"stepIn\",\"body\":{\"error\":\"unexpected command: \\\"stepIn\\\"\"}}"}}
+10/12/2021, 7:24:35 PM -> {"seq":1,"type":"response","request_seq":100,"command":"stepIn","body":{"error":"unexpected command: \"stepIn\""}}
+10/12/2021, 7:24:35 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":102}
+10/12/2021, 7:24:35 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":102}"},"channel":10}
+10/12/2021, 7:24:35 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:36 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":103}
+10/12/2021, 7:24:36 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":103}"},"channel":10}
+10/12/2021, 7:24:36 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:36 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":104}
+10/12/2021, 7:24:36 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":104}"},"channel":10}
+10/12/2021, 7:24:36 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:36 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":105}
+10/12/2021, 7:24:36 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":105}"},"channel":10}
+10/12/2021, 7:24:37 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:37 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":106}
+10/12/2021, 7:24:37 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":106}"},"channel":10}
+10/12/2021, 7:24:37 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:37 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":107}
+10/12/2021, 7:24:37 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":107}"},"channel":10}
+10/12/2021, 7:24:37 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:37 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":108}
+10/12/2021, 7:24:37 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":108}"},"channel":10}
+10/12/2021, 7:24:37 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:38 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":109}
+10/12/2021, 7:24:38 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":109}"},"channel":10}
+10/12/2021, 7:24:38 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:38 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":110}
+10/12/2021, 7:24:38 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":110}"},"channel":10}
+10/12/2021, 7:24:38 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:39 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":111}
+10/12/2021, 7:24:39 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":111}"},"channel":10}
+10/12/2021, 7:24:39 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:44 PM <- {"debugStop":{"session":"main"},"ref":"29p168urhdz","channel":10}
+10/12/2021, 7:24:44 PM -> {"channel":10,"debugState":{"session":"main"}}
+10/12/2021, 7:24:44 PM -> {"channel":10,"debugSessions":{}}
+10/12/2021, 7:24:44 PM -> {"channel":10,"session":262,"ok":{},"ref":"29p168urhdz"}
+10/12/2021, 7:24:44 PM -> {"channel":10,"session":262,"ok":{},"ref":"29p168urhdz"}
+10/12/2021, 7:24:46 PM <- {"debugMain":{"session":"main","readOnly":false},"ref":"24nvtmv7hcf","channel":10}
+10/12/2021, 7:24:46 PM -> {"channel":10,"debugSessions":{"sessions":{"main":"Stopped"}}}
+10/12/2021, 7:24:47 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":112}
+10/12/2021, 7:24:47 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":112}"},"channel":10}
+10/12/2021, 7:24:48 PM -> {"channel":10,"debugState":{"session":"main","state":"Running"}}
+10/12/2021, 7:24:48 PM -> {"channel":10,"debugSessions":{"sessions":{"main":"Running"}}}
+10/12/2021, 7:24:48 PM -> {"channel":10,"session":262,"debugMainReply":{},"ref":"24nvtmv7hcf"}
+10/12/2021, 7:24:48 PM -> {"channel":10,"session":262,"debugMainReply":{},"ref":"24nvtmv7hcf"}
+10/12/2021, 7:24:48 PM <- {"command":"initialize","arguments":{"clientID":"replit","clientName":"replit.com","adapterID":"cppdbg","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":false,"locale":"en-us","supportsProgressReporting":true,"supportsInvalidatedEvent":true},"type":"request","seq":113}
+10/12/2021, 7:24:48 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 373\r\n\r\n{\"command\":\"initialize\",\"arguments\":{\"clientID\":\"replit\",\"clientName\":\"replit.com\",\"adapterID\":\"cppdbg\",\"pathFormat\":\"path\",\"linesStartAt1\":true,\"columnsStartAt1\":true,\"supportsVariableType\":true,\"supportsVariablePaging\":true,\"supportsRunInTerminalRequest\":false,\"locale\":\"en-us\",\"supportsProgressReporting\":true,\"supportsInvalidatedEvent\":true},\"type\":\"request\",\"seq\":113}"},"channel":10}
+10/12/2021, 7:24:48 PM -> {"channel":10,"session":262,"ok":{}}
+10/12/2021, 7:24:48 PM -> {"channel":10,"debugOutput":{"session":"main","adapterOutput":"Content-Length: 118\r\n\r\n{\"seq\":1,\"type\":\"response\",\"request_seq\":112,\"command\":\"continue\",\"body\":{\"error\":\"unexpected command: \\\"continue\\\"\"}}"}}
+10/12/2021, 7:24:48 PM -> {"seq":1,"type":"response","request_seq":112,"command":"continue","body":{"error":"unexpected command: \"continue\""}}
+10/12/2021, 7:24:48 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:48 PM <- {"command":"continue","arguments":{"threadId":null},"type":"request","seq":114}
+10/12/2021, 7:24:48 PM <- {"debugInput":{"session":"main","adapterInput":"Content-Length: 79\r\n\r\n{\"command\":\"continue\",\"arguments\":{\"threadId\":null},\"type\":\"request\",\"seq\":114}"},"channel":10}
+10/12/2021, 7:24:48 PM -> {"channel":10,"session":262,"error":"failed to find the connection for session \"main\":262"}
+10/12/2021, 7:24:50 PM <- {"debugStop":{"session":"main"},"ref":"7qcq5cenhm0","channel":10}
+10/12/2021, 7:24:50 PM -> {"channel":10,"debugState":{"session":"main"}}
+10/12/2021, 7:24:50 PM -> {"channel":10,"debugSessions":{}}
+10/12/2021, 7:24:50 PM -> {"channel":10,"session":262,"ok":{},"ref":"7qcq5cenhm0"}
+10/12/2021, 7:24:50 PM -> {"channel":10,"session":262,"ok":{},"ref":"7qcq5cenhm0"}
